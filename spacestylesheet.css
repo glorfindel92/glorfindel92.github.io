@@ -1,0 +1,69 @@
+body {
+  background-image: url("https://space-facts.com/wp-content/uploads/magellanic-clouds.png");
+  background-color: #ccccc;
+  color: white;
+  text-align: center;
+  font: 20px arial ;
+}
+h1:hover{
+  opacity: 0.5;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  text-shadow:9px 9px 3px grey;
+  color: maroon;
+  font-size: 100px;
+  display: inline-block;
+}
+h2 {
+  border-bottom: 3px solid maroon;
+  opacity: 0.5;
+  font-size: 43px ;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+#Menu {
+	min-width: 696px;
+	list-style-type: none;
+	padding-top: 20px;
+	display: inline;
+  overflow: hidden;
+	}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#menuItems li:hover {
+  background-color: #111;
+}
+#MenuItems {
+  list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: maroon;
+    opacity: 0.5;
+  }
+#MenuItems li {
+  float: left;
+  text-decoration: none;
+  padding: 5px 5px;
+  color: white;
+  text-align: center;
+}
+.subpagetitle {
+  background-color: maroon;
+}
+#bookList {
+  color: #008CBA;
+  list-style-type: hiragana-iroha;
+  display: inline-block;
+  }
+#criticList {
+  color: #008CBA;
+  list-style-type: katakana-iroha;
+  display: inline-block;
+}

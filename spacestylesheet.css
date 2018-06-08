@@ -23,7 +23,7 @@ h2 {
   text-align: center;
   margin: 0 0 50px 0;
 }
-#Menu {
+#menu {
 	min-width: 696px;
 	list-style-type: none;
 	padding-top: 20px;
@@ -37,33 +37,33 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-#MenuItems li:hover {
+#menu_items li:hover {
   background-color: #111;
 }
-#MenuItems {
+#menu_items {
   list-style-type: none;
     margin: 0;
     overflow: hidden;
     background-color: maroon;
     opacity: 0.5;
   }
-#MenuItems li {
+#menu_items li {
   float: left;
   text-decoration: none;
   padding: 5px 5px;
   color: white;
   text-align: center;
 }
-.subpagetitle {
+.subpage_title {
   background-color: maroon;
 }
-#bookList {
+#book_list {
   color: #008CBA;
   font-size: 20px;
   list-style-type: hiragana-iroha;
   display: inline-block;
   }
-#criticList {
+#critic_list {
   color: #008CBA;
   list-style-type: katakana-iroha;
   display: inline-block;

@@ -59,6 +59,7 @@ li a {
 }
 #bookList {
   color: #008CBA;
+  font-size: 20px;
   list-style-type: hiragana-iroha;
   display: inline-block;
   }

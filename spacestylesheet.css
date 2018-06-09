@@ -69,3 +69,13 @@ li a {
   list-style-type: katakana-iroha;
   display: inline-block;
 }
+#buy_button {
+  padding:15px 15px 15px 15px;
+  font: 20px arial;
+  color: white;
+  border: none;
+  background-color: maroon;
+}
+#buy_button:hover {
+  background-color: #111;
+}

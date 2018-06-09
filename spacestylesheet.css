@@ -8,9 +8,6 @@ body {
 .page_content {
   padding: 0px 100px 0px 100px;
 }
-h1:hover{
-  opacity: 0.5;
-}
 #title {
   background-image: url("https://space-facts.com/wp-content/uploads/magellanic-clouds.png");
   margin: 0;

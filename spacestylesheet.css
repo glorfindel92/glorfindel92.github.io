@@ -60,29 +60,31 @@ li a {
   color: white;
   margin: 0 0 30px 0;
 }
-
+/*#photos {
+  display: flex;
+}*/
 .tom {
   width: 288;
   height: 399;
   background: url("tom.png") no-repeat;
   margin: 50px;
 }
-.tom:hover {
+/*.tom:hover {
   width: 288;
   height: 399;
   background: url("james.png") no-repeat;
-}
+}*/
 .james {
   width: 288;
   height: 399;
   background: url("james.png") no-repeat;
   margin: 50px;
 }
-.james:hover {
+/*.james:hover {
   width: 288;
   height: 399;
   background: url("tom.png") no-repeat;
-}
+}*/
 
 
 #book_list {

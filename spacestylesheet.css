@@ -140,26 +140,33 @@ body {
     display: block;
 }
 .photos {
-  /*display: flex;
-  flex-wrap: wrap;*/
+  display: flex;
   justify-content: center;
-  font: 1.4em arial;
-  color: black;
-  text-align:center;
-  width: 288;
+  margin: 50px 0;
 }
-/*.james:hover img {
-  opacity: 0;*/
-}
-.james {
-  background-image: url("tom.png");
-}
-/*.tom:hover img {
-  opacity: 0;*/
-}
+
 .tom {
+  width: 288px;
+  height: 400px;
+  background-image: url("tom.png");
+  margin-right: 25px;
+}
+
+.tom:hover {
   background-image: url("james.png");
 }
+
+.james {
+  width: 288px;
+  height: 400px;
+  background-image: url("james.png");
+  margin-left: 25px;
+}
+
+.james:hover {
+  background-image: url("tom.png");
+}
+
 #floppy_disc {
   width: 20em;
   height: 20em;

@@ -140,22 +140,22 @@ body {
     display: block;
 }
 .photos {
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
   justify-content: center;
   font: 1.4em arial;
   color: black;
   text-align:center;
   width: 288;
 }
-.james:hover img {
-  opacity: 0;
+/*.james:hover img {
+  opacity: 0;*/
 }
 .james {
   background-image: url("tom.png");
 }
-.tom:hover img {
-  opacity: 0;
+/*.tom:hover img {
+  opacity: 0;*/
 }
 .tom {
   background-image: url("james.png");

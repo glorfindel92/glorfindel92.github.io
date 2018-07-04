@@ -32,7 +32,7 @@
 <!-- Test below -->
 
   <p>
-  <button class="button" onclick="moveMoon()">Moon the Moon!</button>
+  <button class="button" onclick="moveMoon()">Move the Moon!</button>
   </p>
 
   <div id ="container">
@@ -42,7 +42,7 @@
   <script>
   function moveMoon() {
     var elem = document.getElementById("moon");
-    var pos = 100;
+    var pos = 0;
     var id = setInterval(frame, 5);
     function frame() {
       if (pos == 350) {

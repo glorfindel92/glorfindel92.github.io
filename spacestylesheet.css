@@ -5,6 +5,19 @@ body {
   font: 3vw arial ;
   margin: 0px 20px 0px 20px;
 }
+.button {
+  background-color: maroon;
+    border: none;
+    color: inherit;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: inherit;
+    font: inherit;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 .page_content {
   padding: 0px 50px 0px 50px;
 }
@@ -19,7 +32,7 @@ body {
 @media screen and (min-width: 600px) {
   #title, #subtitle {
     font-size: 5em;
-  }
+}
 }
 @media screen and (max-width: 601px) {
   #title, #subtitle {
@@ -74,15 +87,8 @@ body {
           padding: 5px 5px;
           text-align: center;
 }
-#book_list {
+.list {
   color: #008CBA;
-  list-style-type: hiragana-iroha;
-  display: inline-block;
-  }
-#critic_list {
-  color: #008CBA;
-  list-style-type: none;
-  display: inline-block;
 }
 #buy_button {
   padding:15px 15px 15px 15px;

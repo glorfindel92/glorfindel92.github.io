@@ -28,7 +28,36 @@
 <div class="page_content">
   <p> For a sample of the novel, simply buy the book and read a very little bit of it.
   </p>
-</div>
+
+<!-- Test below -->
+
+  <p>
+  <button class="button" onclick="moveMoon()">Moon the Moon!</button>
+  </p>
+
+  <div id ="container">
+  <div id ="moon"></div>
+  </div>
+
+  <script>
+  function moveMoon() {
+    var elem = document.getElementById("moon");
+    var pos = 100;
+    var id = setInterval(frame, 5);
+    function frame() {
+      if (pos == 350) {
+        clearInterval(id);
+      } else {
+        pos++;
+        elem.style.top = pos + 'px';
+        elem.style.left = pos + 'px';
+      }
+    }
+  }
+  </script>
+
+<!-- Test above -->
+
 </body>
 
 </html>

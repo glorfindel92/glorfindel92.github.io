@@ -153,7 +153,7 @@ body {
   margin-right: 25px;
 }
 
-.tom:active, .tom:hover  {
+.tom:active {
   background-image: url("james.png");
 }
 

@@ -14,13 +14,18 @@ body {
   text-align: center;
   text-shadow:9px 9px 3px grey;
   color: maroon;
-  font-size: 5em;
+  font: 5em;
 }
-/*@media screen and (min-width: 600px) {
-  body {
+@media screen and (min-width: 600px) {
+  #title, #subtitle {
     font-size: 5em;
   }
-}*/
+}
+@media screen and (max-width: 601px) {
+  #title, #subtitle {
+    font-size: 5em;
+  }
+}
 #title a {
   text-decoration: none;
   color: inherit;
